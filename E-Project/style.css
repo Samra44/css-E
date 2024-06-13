@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-section{
+    width: 80%;
+    height: 15vh;
+    text-align: right;
+    display:inline block;
+
+    
+}
+.carousel-item img{
+    height: 350px;
+}
+.carousel h1{
+    text-align: center;
+    color: #ffe600;
+    margin-top: 30px;
+}
+.carousel p{
+    text-align: center;
+    margin-top: 25px;
+}
+#line{
+    border-bottom: 2px solid #ffc800;
+    width:50% ;
+    margin-top: 50px;
+     
+}
+#canva button{
+    display: block;
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: rgb(245, 241, 241);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 0.5s ease;
+    margin-left: 550px;
+    cursor: pointer;
+}
+#canva button:hover{
+    border-color: #ffc800;
+    color: rgb(0, 0, 0);
+}
+#products{
+    display:inline-block;
+    text-decoration: none;
+    margin-left: 500px;
+   font-size: 30px;
+   text-align: center;
+}
+#topbestsellingproducts{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    text-decoration: none;
+    margin-left: 550px;
+}
+#topbestsellingproduct a :hover{
+    background-color: #ffe600;
+    font-size: 50px;
+}
